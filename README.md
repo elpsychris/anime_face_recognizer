@@ -32,3 +32,9 @@ Now, after 15 mins of blog reading, we can see Iskandar's (writer of *Freedomofk
 
 Stucked right in the first step, so what is **lbpcascade** he was talking about!??
 #### What is LBP Classifier
+According to [pyimagesearch](https://www.pyimagesearch.com/2015/12/07/local-binary-patterns-with-python-opencv/)
+
+> LBPs ... compute a local representation of texture. This local representation is constructed by comparing each pixel with its surrounding neighborhood of pixels.
+
+
+Back to where we paused, Iskandar project suggests we use an LBP cascade from [Nagadomi-AnimeFace](http://anime.udp.jp/data/lbpcascade_animeface.xml)
