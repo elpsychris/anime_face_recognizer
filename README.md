@@ -4,7 +4,7 @@ An app for you to look up an anime character and the series which her/him belong
 
 ## Log
 
-### Day 1 (May 5th 2018)
+### Day 1
 
 In a boring weekend evening after the end of my course in university, I coincidentally read an interesting article from [freedomofkeima's blog - Image Recognition for Anime characters using Deep Learning](https://freedomofkeima.com/blog/posts/flag-15-image-recognition-for-anime-characters).
 
@@ -17,3 +17,18 @@ The basic features I'm planning for this app to have are:
 * Retrieve detail info about the characters whose faces in the image
 
 That's it.
+
+In short, this is the blog about what I learned, read and searched for to complete (hope so, LOL) this project. 
+
+Enough chitchat! Time is candy!
+
+Now, after 15 mins of blog reading, we can see Iskandar's (writer of *Freedomofkeima*) approach consisted of 3 steps:
+
+```
+1.Utilize lbpcascade_animeface to recognize character face from each images
+2.Resize each images to 96 x 96 pixels
+3.Split images into training & test before creating the final model
+```
+
+Stucked right in the first step, so what is **lbpcascade** he was talking about!??
+#### What is LBP Classifier
